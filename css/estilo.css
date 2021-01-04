@@ -6,6 +6,34 @@
 .header{
     padding:10px 5px;
 }
+
+.modal-search-cep {
+    margin: 0 24px;
+}
+
+.modal-search-cep input {
+    outline: none;
+    border: none;
+}
+
+.modal-search-cep input:hover::after{
+    content: "Informe um cep";
+}
+
+.modal-header-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.modal-header-subtitle {
+    font-size: 16px;
+    color: #00000073;
+    line-height: 1.38;
+    font-weight: 400;
+    padding: 0 24px;
+}
+
 .flex{
     display: flex;
 }
@@ -19,8 +47,8 @@
     margin-left:10px;
 }/* 
 .area-cep{
-    border:1px solid red;
+border:1px solid red;
 } */
-.menu-up{
-    border-bottom:1px solid gray ;
-}
+    .menu-up{
+        border-bottom:1px solid gray ;
+    }
